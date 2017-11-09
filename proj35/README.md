@@ -1,12 +1,9 @@
 This code prints a number pattern as shown:
 
-1
-
-2 3
-
-4 5 6
-
-7 8 9 10...
+1  
+2 3  
+4 5 6  
+7 8 9 10...  
 
 The number of rows is taken as user input.
 
