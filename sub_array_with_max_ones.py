@@ -75,8 +75,8 @@ def inversion_trial_0_1(sub_array):
 
 			if 0 not in sub_array_trial:
 
-							if sub_arrays_0_1.count(sub_array_trial) == 0:
-								sub_arrays_0_1.append(sub_array_trial)
+				if sub_arrays_0_1.count(sub_array_trial) == 0:
+					sub_arrays_0_1.append(sub_array_trial)
 
 # *****************************************
 
@@ -101,8 +101,8 @@ def inversion_trial_1_0(sub_array):
 
 			if 1 not in sub_array_trial:
 
-							if sub_arrays_0_1.count(sub_array_trial) == 0:
-								sub_arrays_0_1.append(sub_array_trial)
+				if sub_arrays_0_1.count(sub_array_trial) == 0:
+					sub_arrays_0_1.append(sub_array_trial)
 			
 # *********************************************
 
