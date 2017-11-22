@@ -1,5 +1,5 @@
 """
-This code takes in input of lists and then returns the number of inversions
+This code takes in input of lists and then returns the minimum number of inversions
 between elements required to sort the array. 
 
 As it does not use recursive methods like mergesort, it is not very efficient
@@ -14,7 +14,16 @@ The  subsequent lines describe each list over two lines:
    2. The second line contains  space-separated integers describing the 
       list.
  Output:
- 1. Number of inversions required.
+ 1.minimum number of inversions required.
+ 
+ Sample 1.
+ input: 1
+        3
+        2 4 1
+ output: 2
+ 
+ explanation: 2 4 1 --> 1 4 2 --> 1 2 4
+            hence, 2 inversions required.
 
 """
 d = int(input())
