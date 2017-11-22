@@ -13,7 +13,8 @@ The  subsequent lines describe each list over two lines:
 
    2. The second line contains  space-separated integers describing the 
       list.
-
+ Output:
+ 1. Number of inversions required.
 
 """
 d = int(input())
